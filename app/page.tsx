@@ -7,7 +7,7 @@ const Home = () => {
       <Canvas
          className="h-screen w-screen"
          camera={{
-            fov: 55,
+            fov: 65,
             position: [2.3, 1.5, 2.3],
          }}
       >
