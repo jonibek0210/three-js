@@ -17,7 +17,7 @@ export function Office(props: any) {
     const libraryRef = useRef<any>();
     const atticRef = useRef<any>();
 
-    const scroll = useScroll();
+    const scroll: any = useScroll();
 
     useFrame(() => {
         tl.current.seek(scroll.offset * tl.current.duration());
